@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Platos a la Carta"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff1c2aff" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="95dp"
+        android:text="Plato1"
+        android:id="@+id/btn01"
+        android:background="@drawable/plato1" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="95dp"
+        android:text="Plato3"
+        android:id="@+id/btn03"
+        android:background="@drawable/plato3" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="95dp"
+        android:text="Plato2"
+        android:id="@+id/btn02"
+        android:background="@drawable/plato2" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="95dp"
+        android:text="Plato4"
+        android:id="@+id/btn04"
+        android:background="@drawable/plato4" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="95dp"
+        android:text="Plato5"
+        android:id="@+id/btn05"
+        android:background="@drawable/plato5" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="95dp"
+        android:text="Plato6"
+        android:id="@+id/btn06"
+        android:background="@drawable/plato6" />
+</LinearLayout>

@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item android:id="@+id/opcion1"
+                android:title="CLIENTE"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/opcion2"
+                android:title="PRODUCTO"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/opcion3"
+                android:title="VENDEDOR"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/opcion4"
+                android:title="CATEGORIA"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/inicio"
+                android:title="INICIO"
+                app:showAsAction="withText"/>
+
+        </menu>
+    </item>
+    <item android:id="@+id/action_setting"
+        android:title="@string/abc_action_mode_done"
+        android:icon="@android:drawable/ic_lock_idle_charging"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item android:id="@+id/opcion1a"
+                android:title="Reporte_Cliente"
+                app:showAsAction="withText"/>
+            <item android:id="@+id/opcion1b"
+                android:title="Reporte_Producto"
+                app:showAsAction="withText"/>
+
+        </menu>
+
+    </item>
+</menu>

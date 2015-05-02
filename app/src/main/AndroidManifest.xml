@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alcysaavedra.examen_alcy" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Inicio"
+            android:label="@string/title_activity_inicio" >
+        </activity>
+        <activity
+            android:name=".Opcion1"
+            android:label="@string/title_activity_opcion1" >
+        </activity>
+        <activity
+            android:name=".Opcion2"
+            android:label="@string/title_activity_opcion2" >
+        </activity>
+        <activity
+            android:name=".Opcion3"
+            android:label="@string/title_activity_opcion3" >
+        </activity>
+        <activity
+            android:name=".Opcion4"
+            android:label="@string/title_activity_opcion4" >
+        </activity>
+        <activity
+            android:name=".Opcion1a"
+            android:label="@string/title_activity_opcion1a" >
+        </activity>
+        <activity
+            android:name=".Opcion1b"
+            android:label="@string/title_activity_opcion1b" >
+        </activity>
+        <activity
+            android:name=".Tab_host"
+            android:label="@string/title_activity_tab_host" >
+        </activity>
+        <activity
+            android:name=".Fm_inicio"
+            android:label="@string/title_activity_fm_inicio" >
+        </activity>
+        <activity
+            android:name=".preuba"
+            android:label="@string/title_activity_preuba" >
+        </activity>
+    </application>
+
+</manifest>
